@@ -18,6 +18,7 @@ jar {
 }
 
 scmVersion {
+    dryRun = true
     useHighestVersion = true // increment version regardless of tags orders (next after highest found on any branch)
     branchVersionCreator = [
         'hotfix/.*': 'simple', // do not add anything to version on hotfix branch
